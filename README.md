@@ -22,7 +22,7 @@ irma
 blauw
 
   #### Je focus:
-  responsive en surface plane vind ik allebei even belangrijk, met mes op de keel: surface plane (transities, animaties, micro-interacties). De dingen handig en mooi maken.
+  responsive en surface plane vind ik allebei belangrijk, met mes op de keel: surface plane (transities, animaties, micro-interacties). De dingen behalve handig en simpel mooi maken. Adding delight.
  
 </details>
 
