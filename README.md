@@ -13,7 +13,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 ## Jij
 
 <details open>
-  <summary>uitwerken voor kick-off werkgroep</summary>
+  <summary>irma, c'est moi</summary>
 
   ### Auteur:
 irma
@@ -29,7 +29,7 @@ blauw
 ## Je website
 
 <details open>
-  <summary>voorbereiding voor de kick-off werkgroep (16 feb 2026)</summary>
+  <summary>mijn website</summary>
 
   ### Je opdracht:
   [imhd.nl](https://www.imhd.nl)
@@ -42,7 +42,7 @@ main single post ('het bericht van vandaag')  <img src="readme-images/imhd.jpg" 
   <img src="readme-images/imhd-zoekresultaten.jpg" width="375px" alt="zoekresultaten">
 
   #### Screenshot(s) van de derde pagina (small screen):
-  about en contact - pagina is er nog niet, maar ik wil zoiets maken als [irmadries.nl] (https://www.irmadries.nl/")
+  about en contact - deze pagina is er nog niet, maar ik wil een about en contact maken (formulier dat bij invullen mooi tekstje teruggeeft) en zolang dat er  niet is als placeholder een link naar [irmadries.nl] (https://www.irmadries.nl/") 
  <a href="https://www.irmadries.nl/"> <img src="readme-images/imhd-about-contact.jpg" width="375px" alt="omschrijving van de pagina"></a>
 
  
