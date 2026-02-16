@@ -45,8 +45,7 @@ main single post ('het bericht van vandaag')
   <img src="readme-images/imhd-zoekresultaten.jpg" width="375px" alt="zoekresultaten">
 
   #### Screenshot(s) van de derde pagina (small screen):
-  about en contact - deze pagina is er nog niet, maar ik wil een about en contact maken (formulier dat bij invullen mooi tekstje teruggeeft) en zolang dat er  niet is als placeholder een link naar [irmadries.nl] (https://www.irmadries.nl/) 
-
+  about en contact - deze pagina is er nog niet, maar ik wil een about en contact maken (formulier dat bij invullen mooi tekstje teruggeeft). Zolang dat er  niet is een placeholder-link naar  [irmadries.nl](https://www.irmadries.nl)
  
 </details>
 
