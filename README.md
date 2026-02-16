@@ -16,19 +16,15 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   <summary>uitwerken voor kick-off werkgroep</summary>
 
   ### Auteur:
-  Sanne 't Hooft (vervangen door jouw naam)
+irma
 
   #### Je startniveau:
-  hier je startniveau (kies uit zwart, rood óf blauw)
+blauw
 
   #### Je focus:
-  hier je focus (kies uit responsive óf surface plane)
+  responsive en surface plane vind ik allebei even belangrijk, met mes op de keel: surface plane (transities, animaties, micro-interacties)
  
 </details>
-
-
-
-
 
 ## Je website
 
@@ -36,15 +32,19 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   <summary>uitwerken voor kick-off werkgroep</summary>
 
   ### Je opdracht:
-  link naar de website die je gaat namaken óf de naam/omschrijving van je eigen ontwerp
+  [imhd.nl](https://www.imhd.nl)
 
   #### Screenshot(s) van de eerste pagina (small screen): 
-  hier de naam van de pagina  
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="omschrijving van de pagina">
+main single post - bericht van vandaag  <img src="readme-images/imhd.jpg" width="375px" alt="main single post - bericht van vandaag">
 
   #### Screenshot(s) van de tweede pagina (small screen):
-  hier de naam van de pagina  
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="omschrijving van de pagina">
+  search results 
+  <img src="readme-images/imhd-zoekresultaten.jpg" width="375px" alt="zoekresultaten">
+
+  #### Screenshot(s) van de derde pagina (small screen):
+  about en contact - pagina is er nog niet, maar [irmadries.nl] https://www.irmadries.nl/">wil ik</a> maken
+ <a href="https://www.irmadries.nl/"> <img src="readme-images/imhd-about-contact.jpg" width="375px" alt="omschrijving van de pagina"></a>
+
  
 </details>
 
