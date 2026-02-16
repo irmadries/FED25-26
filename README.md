@@ -22,27 +22,27 @@ irma
 blauw
 
   #### Je focus:
-  responsive en surface plane vind ik allebei even belangrijk, met mes op de keel: surface plane (transities, animaties, micro-interacties)
+  responsive en surface plane vind ik allebei even belangrijk, met mes op de keel: surface plane (transities, animaties, micro-interacties). De dingen handig en mooi maken.
  
 </details>
 
 ## Je website
 
 <details open>
-  <summary>uitwerken voor kick-off werkgroep</summary>
+  <summary>voorbereiding voor de kick-off werkgroep (16 feb 2026)</summary>
 
   ### Je opdracht:
   [imhd.nl](https://www.imhd.nl)
 
   #### Screenshot(s) van de eerste pagina (small screen): 
-main single post - bericht van vandaag  <img src="readme-images/imhd.jpg" width="375px" alt="main single post - bericht van vandaag">
+main single post ('het bericht van vandaag')  <img src="readme-images/imhd.jpg" width="375px" alt="main single post - het bericht van vandaag">
 
   #### Screenshot(s) van de tweede pagina (small screen):
   search results 
   <img src="readme-images/imhd-zoekresultaten.jpg" width="375px" alt="zoekresultaten">
 
   #### Screenshot(s) van de derde pagina (small screen):
-  about en contact - pagina is er nog niet, maar [irmadries.nl] https://www.irmadries.nl/">wil ik</a> maken
+  about en contact - pagina is er nog niet, maar ik wil zoiets maken als [irmadries.nl] (https://www.irmadries.nl/")
  <a href="https://www.irmadries.nl/"> <img src="readme-images/imhd-about-contact.jpg" width="375px" alt="omschrijving van de pagina"></a>
 
  
