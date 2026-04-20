@@ -53,10 +53,12 @@ main single post ('het bericht van vandaag')
 
 
  #### Delight-opties:
- Iets doen met tags... (tagpagina, tagcloud)
- Iets doen met tekstpreviews in resultspagina's (search results, archive results, category resealts)
- Een 'losse' searchpagina maken
- Een footer toevoegen 
+ - Iets doen met tags... (tagpagina, tagcloud)
+ - Iets doen met tekstpreviews in resultspagina's (search results, archive results, category resealts)
+ - Een 'losse' searchpagina maken, of een 'advanced search'
+ - Een link naar een kaart van Amsterdam met (mijn) wandelingen, oa langs boekenkastjes
+ - Filteren op:
+ - Bij zoekresultaten de opties krijgen om enkele in de lijst te selecteren en die 'te onthouden' (is daar javascript voor nodig?) en dan die als één leesbundel terugkrijgen...
 </details>
 
 
