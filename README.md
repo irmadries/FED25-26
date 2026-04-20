@@ -73,6 +73,8 @@ main single post ('het bericht van vandaag')
   Lijst met je bevindingen die in de test naar voren kwamen:
 
 - De screenreader leest 'line' voor, als zij het menu (nav) voorleest, terwijl dat verticale lijntje eigenlijk een visuele afscheiding is tussen twee menu items (dus geen 'inhoud' om voor te lezen)
+- Ik heb geen dark (of andere contrast) mode
+- Zou ik een site helemaal kunnen afstemmen op 'luisteren'?
 - 
 </details>
 
