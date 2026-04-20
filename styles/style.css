@@ -17,15 +17,58 @@
 	/* startje */
 	--color-text:#111;
 	--color-background:#eee;
+
+	/* default light mode  */
+	--color-border: #cacfd5;
+	--color-text-default: #0b1016;
+	--color-base: #f4f5f6;
+	--color-accent: #ba0d37;
 }
 
+@media (prefers-color-scheme: dark) {
+:root {
+--color-background: #38444c;
+--color-border: #697278;
+--color-text-default: #f0f2f3;
+--color-base: #293238;
+--color-accent: #ec1a62; }
+}
 
-
+/* prefers-color-scheme, prefers-contrast, prefers-reduced-motion, prefers-reduced-transparency. */
 
 
 /****************/
 /* JOUW STYLING */
 /****************/
-
+p {
+	color:rgb(10, 10, 10);
+}
 /* jouw code */
 
+
+/*************/
+/* DE HEADER */
+/*************/
+header nav ul {
+  /* JOUW CODE HIER - stap 3 */
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+  
+  position:sticky;
+  top:0;
+
+  list-style-type: none;
+}
+
+
+
+
+button {
+background-color: red;
+  border: none;
+}
+
+button:hover{
+	background-color: blue;
+}
