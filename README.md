@@ -89,7 +89,7 @@ main single post ('het bericht van vandaag')
 
 
   ### de hele pagina: 
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="breakdown van de hele pagina">
+  <img src="readme-images/imhd.jpg" width="375px" alt="breakdown van de hele pagina">
 
   ### dynamisch deel (bijv menu): 
   Justus lijkt het menu te hebben dat ik wil (ik wil het linksaligned en geen logo) https://ju5tu5.nl/twyw
