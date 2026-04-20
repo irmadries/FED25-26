@@ -33,7 +33,7 @@ blauw
 ## Je website
 
 <details>
-  <summary>mijn website</summary>
+  <summary>imhd.nl</summary>
 
   ### Je opdracht:
   [imhd.nl](https://www.imhd.nl)
