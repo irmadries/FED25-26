@@ -82,7 +82,7 @@ main single post ('het bericht van vandaag')
 
   ### overzicht hele site - flow bij swipen naar links, naar onder, naar rechts, naar boven
 
-    <img src="readme-images/helesiteoverzicht.jpg" width="375px" alt="overzicht hele site">
+ <img src="readme-images/helesiteoverzicht.jpg" width="375px" alt="breakdown van de hele pagina">
 
 
   ### de hele pagina: 
