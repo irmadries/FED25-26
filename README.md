@@ -28,7 +28,7 @@ blauw
 
 ## Je website
 
-<details open>
+<details>
   <summary>mijn website</summary>
 
   ### Je opdracht:
