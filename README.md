@@ -59,6 +59,7 @@ main single post ('het bericht van vandaag')
  - Een link naar een kaart van Amsterdam met (mijn) wandelingen, oa langs boekenkastjes
  - Filteren op:
  - Bij zoekresultaten de opties krijgen om enkele in de lijst te selecteren en die 'te onthouden' (is daar javascript voor nodig?) en dan die als één leesbundel terugkrijgen...
+ - Bepaalde berichten voorgelezen krijgen, stem kunnen kiezen
 </details>
 
 
