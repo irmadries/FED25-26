@@ -65,7 +65,8 @@ main single post ('het bericht van vandaag')
   ### Bevindingen
   Lijst met je bevindingen die in de test naar voren kwamen:
 
-De screenreader leest 'line' voor, als zij het menu (nav) voorleest, terwijl dat verticale lijntje eigenlijk een afscheiding is tussen twee nav items (dus geen 'inhoud' om voor te lezen)
+- De screenreader leest 'line' voor, als zij het menu (nav) voorleest, terwijl dat verticale lijntje eigenlijk een visuele afscheiding is tussen twee menu items (dus geen 'inhoud' om voor te lezen)
+- 
 </details>
 
 
@@ -74,6 +75,11 @@ De screenreader leest 'line' voor, als zij het menu (nav) voorleest, terwijl dat
 
 <details>
   <summary>uitwerken na afloop 3<sup>e</sup> werkgroep</summary>
+
+  ### overzicht hele site - flow bij swipen naar links, naar onder, naar rechts, naar boven
+
+    <img src="readme-images/_breakdownschets.pdf" width="375px" alt="overzicht hele site">
+
 
   ### de hele pagina: 
   <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="breakdown van de hele pagina">
