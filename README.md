@@ -65,6 +65,7 @@ main single post ('het bericht van vandaag')
   ### Bevindingen
   Lijst met je bevindingen die in de test naar voren kwamen:
 
+De screenreader leest 'line' voor, als zij het menu (nav) voorleest, terwijl dat verticale lijntje eigenlijk een afscheiding is tussen twee nav items (dus geen 'inhoud' om voor te lezen)
 </details>
 
 
