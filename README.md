@@ -12,7 +12,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
 ## Jij
 
-<details open>
+<details>
   <summary>irma, c'est moi</summary>
 
   ### Auteur:
@@ -59,7 +59,7 @@ main single post ('het bericht van vandaag')
 
 ## Toegankelijkheidstest 1/2 (week 1)
 
-<details>
+<details open>
   <summary>uitwerken na test in 2<sup>e</sup> werkgroep</summary>
 
   ### Bevindingen
