@@ -74,7 +74,7 @@ main single post ('het bericht van vandaag')
 
 - De screenreader leest 'line' voor, als zij het menu (nav) voorleest, terwijl dat verticale lijntje eigenlijk een visuele afscheiding is tussen twee menu items (dus geen 'inhoud' om voor te lezen)
 - Ik heb geen dark (of andere contrast) mode
-- Zou ik de verbeterde site helemaal kunnen afstemmen op 'luisteren'? Dus alsof het voor een blind iemand is? Die wil oa. volgens mij gewoon meteen 'vandaag' horen (terwijl nu het menu als 'eerste' in de html zit)
+- Zoekveld heeft geen submit-button (is dat eigenlijk per se nodig?)
   
 </details>
 
