@@ -1,74 +1,101 @@
-/**************/
-/* CSS REMEDY */
-/**************/
-*, *::after, *::before {
-  box-sizing:border-box;  
-}
 
 
+/*********/
+/* BASIS */
+/*********/
 
-
-
-
-/*********************/
-/* CUSTOM PROPERTIES */
-/*********************/
-:root {
-	/* startje */
-	--color-text:#111;
-	--color-background:#eee;
-
-	/* default light mode  */
-	--color-border: #cacfd5;
-	--color-text-default: #0b1016;
-	--color-base: #f4f5f6;
-	--color-accent: #ba0d37;
-}
-
-@media (prefers-color-scheme: dark) {
-:root {
---color-background: #38444c;
---color-border: #697278;
---color-text-default: #f0f2f3;
---color-base: #293238;
---color-accent: #ec1a62; }
-}
-
-/* prefers-color-scheme, prefers-contrast, prefers-reduced-motion, prefers-reduced-transparency. */
-
-
-/****************/
-/* JOUW STYLING */
-/****************/
-p {
-	color:rgb(10, 10, 10);
-}
-/* jouw code */
-
-
-/*************/
-/* DE HEADER */
-/*************/
-header nav ul {
-  /* JOUW CODE HIER - stap 3 */
-  display:flex;
-  justify-content:space-between;
-  align-items:center;
+@layer basis {
+  /* Simpele CSS Remedy */
+  /* naar een idee van Jen Simmons */
+  /* github.com/jensimmons/cssremedy */
+  *, *::after, *::before {
+    box-sizing:border-box;  
+  }
   
-  position:sticky;
-  top:0;
+  header,
+  main {
+    width:100%;
+    max-width:40em;
+    margin:0 auto;
+  }
 
-  list-style-type: none;
+  main {
+    background:white;
+    color:black;
+    padding:var(--tmplt-size-whitespace); 
+  }
 }
 
-
-
-
-button {
-background-color: red;
-  border: none;
+h1 {
+	margin:0;
+  /* het Google font aanroepen dat via de link in de HTML is gekoppeld */
+	font-family: 'Gluten', cursive;
 }
 
-button:hover{
-	background-color: blue;
+p {
+	margin:0;
+  /* het Google font aanroepen dat via de link in de HTML is gekoppeld */
+	font-family: 'verdana', cursive;
+}
+
+main p {
+  /* wat meer ruimte tussen de regels van de paragraaf */
+  line-height:1.6em;
+}
+
+ul {
+  display:flex;
+  flex-direction:row;
+  flex-wrap: wrap;
+}
+
+/* voor debugging only even een zwart randje in beeld */
+#container {
+  border: 2px solid black;
+}
+
+/* voor debugging purposes even gele kleur gegeven en een padding om de gele kleur te zien */
+#tags {
+	background-color: burlywood;
+	padding:5px;
+}
+
+li {
+	white-space: nowrap;
+}
+
+/************************/
+/* DE NAVBALK MET ITEMS */
+/************************/
+ul {
+  --item-kleur1:SkyBlue;
+  --item-kleur2:LightGreen;
+  --item-tekst:Black;
+ 	/* geen bullet voor de items */
+  	list-style-type: none;
+	position:relative;
+  	/* ik zou willen dat de navitems links uitlijnen met de bodytekst maar ze springen net ietsje in */
+	margin:0;
+	padding:0;
+	/* margin:0 -1em; */
+
+	/* ik zou willen dat de li items afsluiten met een verticaal streepje
+
+	/* ik zou willen dat de tags en categorieën (de gekleurde blokken) niet verspringen op de volgende regel */
+
+/************/
+/* DE ITEMS */
+/************/
+li {
+  padding: 0em;
+  color:var(--item-tekst);
+}
+
+/* tijdelijk de listitems kleuren geven zodat ik goed zie hoe het zit */
+
+ul:nth-of-type(odd) li:nth-of-type(even){ 
+  background-color:var(--item-kleur1);
+}
+ul:nth-of-type(odd) li:nth-of-type(odd){
+  background-color:var(--item-kleur2);
 }
