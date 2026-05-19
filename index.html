@@ -3,68 +3,127 @@
 	
 <head>
 	<meta charset="UTF-8">
-	<meta name="author" content="jouw naam">
+	<!---meta name="author" content="author"--->
+	<!-- ziet er op mobiel ook goed uit -->
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	
-	<title>imhd - elke dag een bericht</title>
+	<!--- op welke site ben je, en op welke pagina --->
+	<title>imhd - elke dag een bericht -  homepage</title>
 
 	<link href="styles/style.css" rel="stylesheet">
 
 	<link rel="icon" type="image/svg+xml" href="https://imhd.nl/favicon.ico">
+
+
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Gluten:wght@400;700&display=swap" rel="stylesheet">
+
 </head>
 
 <body>
 
 	<header>
-
-		  <form>
     	<!-- ZOEKEN -->
-   		 <input type="search" placeholder="zoek kat, plant, neus" aria-label="zoek kat, plant, neus">
-   		 <button type="button">Search</button>
-  </form> 
+		<form>
+   		<input type="search" placeholder="zoek " aria-label="Zoek kat, plant, neus">
+    	<button type="button" lang="en">Search</button>
+  		</form> 
+
+		<!--- tijdelijke lelijke oplossing om ruimte te geven --->
+		<br />
 
 		<!--- navigatie, moet naast elkaar komen, ik wil dat de screenreader het rechtopstaande lijntje niet voorleest, dat gebeurt nu wel-->
 		<!--- het menu -->
 		<nav>
-			<ul>
-				<li><p>irma</p> </li>
-				<li><p>|</p> </li>
-				<li><p>archief |</p> </li>
-				<li><p>|</p> </li>
-				<li><p>timestamp |</p> </li>
-				<li><p>posted in catNaam1, catNaam2</p> </li>
-				<li><p>tagged: tag1, tag2, tag400</p></li>
+			<ul id="container">
+				<li><a href="irma">irma</a></li>
+				<li>&nbsp;|&nbsp;</li>
+				<li><a href="archief">archief</a></li>
+				<li>&nbsp;|&nbsp;</li>
+				<li>gepost op <time datetime="2018-07-07">July 7</time> in:&nbsp;</li>
+				<li>
+					<ul>
+						<li><a href="">categ.1</a></li>
+						<li><a href="">categ.2</a></li>
+					</ul>
+				</li>
+				<li>&nbsp;|&nbsp;</li>
+				<li>tagged: </li>
+				<li>
+					<!--- ik zou graag willen dat de gele ul niet wrapt naar een nieuwe regel maar eerst de bovenste regel uitvult -->
+					<ul id="tags">
+                        <li><a href="">tag1</a></li>
+                        <li><a href="">tag2</a></li>
+                        <li><a href="">tag3</a></li>
+                        <li><a href="">tag4</a></li>
+                        <li><a href="">tag5</a></li>
+                        <li><a href="">tag6</a></li>
+                        <li><a href="">tag7</a></li>
+                        <li><a href="">tag8</a></li>
+                        <li><a href="">tag9</a></li>
+                        <li><a href="">tag10</a></li>
+                        <li><a href="">tag11</a></li>
+                        <li><a href="">tag12</a></li>
+                        <li><a href="">tag13</a></li>
+                        <li><a href="">tag14</a></li>
+                        <li><a href="">tag15</a></li>
+                        <li><a href="">tag16</a></li>
+                        <li><a href="">tag17</a></li>
+                        <li><a href="">tag18</a></li>
+                    </ul>
+				</li>	
 			</ul>
 		</nav>
+
 	</header>
 
-
-	<header>
-
-  
-
-  
-
-</header>
+		<!--- tijdelijke lelijke oplossing om ruimte te geven --->
+		<br />
 
 	<main>
-	<h1>titel van bericht van vandaag</h1>
-	<p>Dit is het bericht van vandaag. it is het bericht van vandaag. it is het bericht van vandaag.Dit is het bericht van vandaag. it is het bericht van vandaag. it is het bericht van vandaag.Dit is het bericht van vandaag. it is het bericht van vandaag. it is het bericht van vandaag.Dit is het bericht van vandaag. it is het bericht van vandaag. it is het bericht van vandaag.Dit is het bericht van vandaag. it is het bericht van vandaag. it is het bericht van vandaag.Dit is het bericht van vandaag. it is het bericht van vandaag. it is het bericht van vandaag.Dit is het bericht van vandaag. it is het bericht van vandaag. it is het bericht van vandaag.Dit is het bericht van vandaag. it is het bericht van vandaag. it is het bericht van vandaag.Dit is het bericht van vandaag. it is het bericht van vandaag. it is het bericht van vandaag.Dit is het bericht van vandaag. it is het bericht van vandaag. it is het bericht van vandaag.Dit is het bericht van vandaag. it is het bericht van vandaag. it is het bericht van vandaag.Dit is het bericht van vandaag. it is het bericht van vandaag. it is het bericht van vandaag. it is het bericht van vandaag. it is het bericht van vandaag. it is het bericht van vandaag. it is het bericht van vandaag. it is het bericht van vandaag. it is het bericht van vandaag. it is het bericht van vandaag. it is het bericht van vandaag. it is het bericht van vandaag. it is het bericht van vandaag. it is het bericht van vandaag. it is het bericht van vandaag. it is het bericht van vandaag. Dit is het bericht van vandaag. Dit is het bericht van vandaag.</p>
+		<article>
+			<h1>titel bericht <span lang="fr">vandaag</span></h1>
+			<p>Dit is het bericht van vandaag. it is het bericht van vandaag. it is het bericht van vandaag.Dit is het bericht van vandaag. it is het bericht van vandaag. it is het bericht van vandaag.Dit is het bericht van vandaag. it is het bericht van vandaag. it is het bericht van vandaag.Dit is het bericht van vandaag. it is het bericht van vandaag. it is het bericht van vandaag.Dit is het bericht van vandaag. it is het bericht van vandaag. it is het bericht van vandaag.Dit is het bericht van vandaag. it is het bericht van vandaag. it is het bericht van vandaag.Dit is het bericht van vandaag. it is het bericht van vandaag. it is het bericht van vandaag.Dit is het bericht van vandaag. it is het bericht van vandaag. it is het bericht van vandaag.Dit is het bericht van vandaag. it is het bericht van vandaag. it is het bericht van vandaag.Dit is het bericht van vandaag. it is het bericht van vandaag. it is het bericht van vandaag.Dit is het bericht van vandaag. it is het bericht van vandaag. it is het bericht van vandaag.Dit is het bericht van vandaag. it is het bericht van vandaag. it is het bericht van vandaag. it is het bericht van vandaag. it is het bericht van vandaag. it is het bericht van vandaag. it is het bericht van vandaag. it is het bericht van vandaag. it is het bericht van vandaag. it is het bericht van vandaag. it is het bericht van vandaag. it is het bericht van vandaag. it is het bericht van vandaag. it is het bericht van vandaag. it is het bericht van vandaag. it is het bericht van vandaag. Dit is het bericht van vandaag. Dit is het bericht van vandaag.</p>
+		</article>
+		<!----aside>zou ook hierin kunnen</aside--->
 
-	</main>
+		<!--- tijdelijke lelijke oplossing om ruimte te geven --->
+		<br />
 
+		<!--- dit artikel moet pas verschijnen na swipen --->
+		<article>
+			<h1>titel bericht <span lang="fr">gisteren</span></h1>
+			<p><font color="#ff0000;"><em>Moet pas verschijnen na swipen.</em></font> Dit is het bericht van gisteren.</p>
+		</article>
 
+		<!--- tijdelijke lelijke oplossing om ruimte te geven --->
+		<br />
 
-	<footer>
+		<!--- dit artikel moet pas verschijnen na swipen --->
+		<article>
+			<h1>titel bericht <span lang="fr">eergisteren</span></h1>
+			<p><font color="#ff0000;"><em>Moet pas verschijnen na swipen.</em></font> Dit is het bericht van eergisteren.</p>
+		</article>
 
-				<nav>
+		<!--- tijdelijke lelijke oplossing om ruimte te geven --->
+		<br />
+
+		<nav>
 			<ul>
+				<!--- eerder bericht moet links uitlijnen -->
 				<li><p>eerder bericht</p>  </li>
+
+				<!--- volgend bericht moet rechts uitlijnen -->
 				<li><p>volgend bericht</p> </li>
 			</ul>
 		</nav>
+	</main>
 
-	</footer>
+
+	<!---footer>
+		hoeft er eventueel niet te zijn
+	</footer--->
 </body>
 	
 </html>
